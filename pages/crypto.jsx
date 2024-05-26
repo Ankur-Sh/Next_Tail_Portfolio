@@ -29,7 +29,6 @@ const crypto = () => {
                     <p>Project</p>
                     <h2>Overview</h2>
                     <p>
-                        {" "}
                         ● Engineered a high-performance data architecture
                         solution combining Firebase for image storage and
                         MongoDB for quick URL retrieval, resulting in a 40%
@@ -37,13 +36,13 @@ const crypto = () => {
                         engagement. <br /> ● Enhanced website security and user
                         experience by implementing Firebase Authentication,
                         enabling secure sign-in via email and Google,
-                        strengthened website's identity management and access
+                        strengthened website identity management and access
                         control functionalities. <br /> ● Spearheaded adoption
                         of Redux for streamlined state management, leading to a
                         50% decrease in data flow complexity and enhancing
                         application responsiveness and user experience. <br /> ●
                         Designed and deployed a cutting-edge payment gateway
-                        using Stripe's API, enhancing transaction security and
+                        using Stripe API, enhancing transaction security and
                         streamlining user experience, resulting in a 40%
                         increase in successful transactions and safeguarding
                         customer financial information.

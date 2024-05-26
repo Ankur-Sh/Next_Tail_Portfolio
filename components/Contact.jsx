@@ -5,7 +5,7 @@ import { AiOutlineMail } from "react-icons/ai";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
-import ContactImg from "../public/assets/contact.jpg";
+// import contactImg from "../public/assets/page/contact.jpg";
 
 const Contact = () => {
     return (
@@ -22,16 +22,18 @@ const Contact = () => {
                             <div>
                                 <Image
                                     className="rounded-xl hover:scale-105 ease-in duration-300"
-                                    src={ContactImg}
+                                    src="/assets/page/contact.jpg"
+                                    width={"500px"}
+                                    height={"350px"}
                                     alt="/"
                                 />
                             </div>
                             <div>
-                                <h2 className="py-2">Clint Briley</h2>
+                                <h2 className="py-2">Ankur Sharma</h2>
                                 <p>Front-End Developer</p>
                                 <p className="py-4">
                                     I am available for freelance or full-time
-                                    positions. Contact me and let&apos;s talk.
+                                    positions. Contact me and lets talk.
                                 </p>
                             </div>
                             <div>

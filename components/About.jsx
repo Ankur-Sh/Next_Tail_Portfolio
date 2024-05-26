@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import AboutImg from "../public/assets/about.jpg";
+// import aboutImg from "../public/assets/page/about.jpg";
 
 const About = () => {
     return (
@@ -17,8 +17,8 @@ const About = () => {
                     <h2 className="py-4">Who I Am</h2>
                     <p className="py-3 text-base text-gray-600">
                         I specialize in building mobile responsive front-end UI
-                        applications that connect with API’s and other backend
-                        technologies. I’m passionate about learning new
+                        applications that connect with API and other backend
+                        technologies. I am passionate about learning new
                         technologies and understand there is more than one way
                         to accomplish a task. Though I am most proficient in
                         building front-end applications using HTML, CSS,
@@ -37,7 +37,13 @@ const About = () => {
                     </Link>
                 </div>
                 <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
-                    <Image src={AboutImg} className="rounded-xl" alt="/" />
+                    <Image
+                        src="/assets/page/about.jpg"
+                        className="rounded-xl"
+                        width={"500px"}
+                        height={"300px"}
+                        alt="/"
+                    />
                 </div>
             </div>
         </div>
