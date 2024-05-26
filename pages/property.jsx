@@ -48,7 +48,7 @@ const property = () => {
                         in average user session duration and a 20% improvement
                         in user retention rates. <br /> ● Crafted rich visual
                         elements and interactive UI components via Chakra-UI,
-                        transforming Friendify's platform into an engaging user
+                        transforming Friendify platform into an engaging user
                         experience; culminating in a 30% in user retention and a
                         20% in conversion rates.
                     </p>
