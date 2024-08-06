@@ -19,8 +19,7 @@ const crypto = () => {
                 <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
                     <h2 className="py-2">Gadgetry-App</h2>
                     <h3>
-                        Reactjs/Redux/Firebase/MongoDB <br></br>
-                        /Nodejs/Express/Stripe API
+                        Reactjs/Redux/Firebase/MongoDB/Nodejs/Express/Stripe API
                     </h3>
                 </div>
             </div>
