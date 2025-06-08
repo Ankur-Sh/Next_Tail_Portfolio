@@ -1,7 +1,6 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-// import aboutImg from "../public/assets/page/about.jpg";
 
 const About = () => {
     return (
@@ -11,38 +10,29 @@ const About = () => {
         >
             <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
                 <div className="col-span-2">
-                    <p className="uppercase text-xl tracking-widest text-[#5651e5]">
-                        About
+                    <h2 className="py-4">About Me</h2>
+                    <p className="py-2 text-base text-gray-600">
+                        I'm a <b>Full Stack Developer</b> with hands-on experience in building robust and scalable web applications. I recently completed a successful internship at <b>GeeksforGeeks</b>, where I contributed to high-impact projects used by millions of users.
                     </p>
-                    <h2 className="py-4">Who I Am</h2>
-                    <p className="py-3 text-base text-gray-600">
-                        I specialize in building mobile responsive front-end UI
-                        applications that connect with API and other backend
-                        technologies. I am passionate about learning new
-                        technologies and understand there is more than one way
-                        to accomplish a task. Though I am most proficient in
-                        building front-end applications using HTML, CSS,
-                        Javascript, and React, I am a quick learner and can pick
-                        up new tech stacks as needed. I believe that being a
-                        great developer is not using one specific language, but
-                        choosing the best tool for the job.
+                    <p className="py-2 text-base text-gray-600">
+                        My tech stack includes <b>React, Next.js, Node.js, JavaScript</b>, and I’ve worked on implementing <b>Server-Side Rendering (SSR)</b>, optimizing performance, and enhancing user experiences.
                     </p>
-                    <p className="py-3 text-base text-gray-600">
-                        I started web developement in 2021.
+                    <p className="py-2 text-base text-gray-600">
+                        I enjoy solving real-world problems through clean, maintainable code and always strive to learn new technologies and best practices.
                     </p>
                     <Link href="/#projects">
                         <p className="py-3 text-base text-gray-600 underline cursor-pointer">
-                            Check out some of my latest projects.
+                            Check out my latest projects.
                         </p>
                     </Link>
                 </div>
                 <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
                     <Image
-                        src="/assets/page/about.jpg"
+                        src="/assets/page/about.jpeg"
                         className="rounded-xl"
-                        width={"500px"}
-                        height={"300px"}
-                        alt="/"
+                        width={320}
+                        height={320}
+                        alt="About Image"
                     />
                 </div>
             </div>
