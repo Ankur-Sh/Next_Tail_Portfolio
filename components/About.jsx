@@ -22,14 +22,20 @@ const About = () => {
             <div className="max-w-6xl w-full grid md:grid-cols-2 gap-10 items-start">
                 {/* Left - Profile Card */}
                 <div className="bg-white rounded-3xl shadow-xl p-8 relative overflow-hidden">
-                    <div className="relative w-40 h-40 mx-auto mb-6 rounded-full overflow-hidden border-4 border-indigo-500 shadow-lg">
-                        <Image
-                            src="/assets/page/about.jpeg"
-                            alt="Profile"
-                            layout="fill"
-                            objectFit="cover"
-                        />
-                    </div>
+                <div className="relative w-40 h-40 mx-auto mb-6 rounded-full overflow-hidden border-4 border-indigo-500 shadow-lg perspective-1000">
+  <div className="w-full h-full transition-transform duration-500 transform-style-preserve-3d hover:rotate-x-6 hover:rotate-y-6 hover:scale-110">
+  <Image
+  src="/assets/page/about.jpeg"
+  alt="Profile"
+  layout="fill"
+  objectFit="cover"
+  objectPosition="top"
+  className="rounded-full"
+/>
+
+  </div>
+</div>
+
                     <h3 className="text-2xl font-bold text-gray-800 text-center mb-2">
                         Ankur Sharma
                     </h3>
